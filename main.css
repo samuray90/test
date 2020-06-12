@@ -5,6 +5,31 @@ body {
     align-items: center;
 }
 
+.container{
+    text-align: center;
+}
+
+.hexColor{
+    text-transform: capitalize;
+}
+
+.hex{
+    font-size: 3rem;
+}
+
+.hexBtn {
+    color: #f15025;
+    border: 3px solid #f15025;
+    border-radius: 7px;
+    background: rgba(0,0,0,0.6);
+    font-size: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    outline: none;
+    text-transform: capitalize;
+
+}
+
 .colorBtn {
     padding: 0.25rem 0.5rem;
     border: 3px salmon;
@@ -17,6 +42,6 @@ body {
     outline: none;
 }
 
-.colorBtn:hover{
+.hexBtn:hover{
     background-color: rgb(0,0,0);
 }
