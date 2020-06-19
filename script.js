@@ -9,7 +9,7 @@ const quotes = [
   },
   {
       name:'Abraham LIncoln',
-      quote:'I`m a success today because I had a friend who believed in me and I didn`t havethe heart to let him down'
+      quote:'I`m a success today because I had a cucu caca friend who believed in me and I didn`t havethe heart to let him down'
   }
 
 ]
