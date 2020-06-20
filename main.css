@@ -1,0 +1,41 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./asset/beer.jpg)center/cover no-repeat;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+}
+
+.counter-box{
+  flex:0 0 60%;
+  text-align: center;
+  border: 3px solid blueviolet;
+  padding: 1rem;
+  font-weight: bold;
+  box-shadow: 3px 3px 10px 10px black;
+}
+
+.counter {
+  font-size: 6rem;
+}
+
+.btn{
+  background: cornsilk;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 0.5rem 0.25rem;
+  border: 3px solid#f15;
+  box-shadow: 0px 5px #001221;
+  outline: none;
+}
+
+.btn:hover{
+  background-color: darkgoldenrod;
+  color: aliceblue;
+}
+.btn:active {
+  box-shadow: none;
+}
