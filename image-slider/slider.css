@@ -1,0 +1,61 @@
+body {
+  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background: url(./img/background.png)center/cover;
+}
+
+.images {
+  background: yellow;
+  flex: 0 0 80%;
+  min-height: 70vh;
+  background: url('./img/bcg-0.jpg')center/cover no-repeat;
+  border-radius: 10px;
+  box-shadow: 5px 10px rgb(30, 7, 53);
+  position: relative;
+}
+.btn {
+  display: inline-block;
+  background: firebrick;
+  color: rgb(108, 224, 30);
+  border: 5px solid gold;
+  font-size: medium;
+  outline: none;
+  border-radius: 15px;
+  font-weight: bolder;
+  padding: 0.5rem;
+  box-shadow:  2px 6px grey;
+}
+
+.prevBtn {
+  position: absolute;
+  top: 50%;
+  left:0;
+  transform: translate(-50%,-50%);
+}
+
+.nextBtn {
+  position: absolute;
+  top: 50%;
+  right:0;
+  transform: translate(50%,-50%);
+}
+
+.btn:active {
+  background: grey;
+  box-shadow:  1px 1px grey;
+}
+
+footer {
+  position: fixed;
+  padding: -3rem;
+  padding: 19px;
+  margin: 21px;
+  align-items: baseline;
+  bottom: 15px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 2rem;
+}
