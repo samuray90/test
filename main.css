@@ -54,10 +54,16 @@ body {
     padding: 20px 30px;
 }
 
-.navigation-message {
+.navigation-message,
+.navigation-counter {
     text-transform: capitalize;
     color: honeydew;
     font-weight: 600;
     font-family: sans-serif;
     text-decoration: none;
+    padding: 15px;
+}
+
+nav {
+display: inline;
 }
