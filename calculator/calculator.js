@@ -1,7 +1,7 @@
 const btns = document.querySelectorAll('.btn');
 const screen = document.querySelector('.screen');
 const equalBtn = document.querySelector('.btn-equal');
-const clearBtn = document.querySelector('.clear-equal');
+const clearBtn = document.querySelector('.btn-clear');
 
 for(let i = 0;i<btns.length;i++){
   btns[i].addEventListener('click', function(){
@@ -11,8 +11,14 @@ for(let i = 0;i<btns.length;i++){
 }
 
 equalBtn.addEventListener('click', function() {
-  let value = eval(screen.value);
-  screen.value = value;
+  if(screen.value === ''){
+    alert('to calculate, add numbers/values!')
+  }
+  else {
+    let value = eval(screen.value);
+    screen.value = value
+  }
+
 })
 
 clearBtn.addEventListener('click', function(){
